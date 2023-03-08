@@ -1,0 +1,91 @@
+#nav{
+    display:flex;
+    flex-direction: column;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    height: 94%;
+    width: 45%;
+    margin-left: 0.1rem;
+}
+.ct{
+    display:none;
+}
+.img2 {
+    width: 91%;
+    height: 60%;
+    position: relative;
+    left: 0.3rem;
+    top: 1rem;
+}
+#nav ul {
+    display: flex;
+    justify-content:left;
+    align-items: start;
+    margin-left: -8rem;
+    position: relative;
+    flex-direction: column;
+    top: 3rem;
+    font-size: 0.7rem;
+    padding-left:5.3rem;
+    list-style: disc;
+}
+
+#nav li a {
+    color: navy;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 2px;
+    margin-right: 1rem;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+#nav li{
+    display:flex;
+    padding:0.5rem 0rem;
+    justify-content:left;
+    position:sticky;
+    left:0px;
+}
+#sec2 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-left: -67px;
+}
+#abtus {
+    padding: 0px 0rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+#part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    flex-direction: column;
+}
+#get-in-touch1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: -2rem;
+    /* align-items: center; */
+    padding-top: 3rem;
+}
+#sec3 span {
+    font-family: 'Cinzel', serif;
+    color: navy;
+    font-size: 1rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    padding-left: 30px;
+}

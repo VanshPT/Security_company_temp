@@ -1,0 +1,82 @@
+*{
+    padding:0px 0px;
+    margin:0px 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    overflow-x:hidden;
+}
+.ct{
+    display:flex;
+    align-items: center;
+    background-color:navy;
+    position:sticky;
+    top:0px;
+    border-bottom: 2px solid white;
+}
+.call {
+    height: 5%;
+    width: 2.2%;
+    position: relative;
+    top: -0.3rem;
+}
+#mail{
+    height:6%;
+    width:2%;
+}
+.ct div a{
+    padding-left: 7px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 81px;
+    font-size: 1.4rem;
+    color:white;
+    text-decoration: none;
+}
+.img1{
+    height:94%;
+    width:18%;
+    margin-left:-39px;
+}
+.img2{
+    width:50%;
+    height: 56%;
+    margin-bottom: 3rem;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section h1{
+    margin-top:10rem;
+    padding:1.5rem 0rem;
+    font-size: 2.3rem;
+    color:navy;
+}
+section p{
+    font-size:1.4rem;
+    color:navy;
+    padding:1rem 1rem;
+}
+section h4{
+    font-size:2rem;
+    color:navy;
+    margin:1rem 0rem;
+}
+#home-b{
+    background-color: maroon;
+    border:2px solid maroon;
+    border-radius: 5px;
+    padding:1rem 2rem;
+    color:white;
+    margin-top:2rem;
+    font-size:1.4rem;
+    text-decoration: none;
+}

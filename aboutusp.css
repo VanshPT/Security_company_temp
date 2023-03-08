@@ -1,0 +1,254 @@
+*{
+    padding:0px 0px;
+    margin:0px 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    overflow-x:hidden;
+}
+.ct{
+    display:flex;
+    align-items: center;
+    background-color:navy;
+    position:sticky;
+    top:0px;
+    border-bottom: 2px solid white;
+}
+.call {
+    height: 5%;
+    width: 2.2%;
+    position: relative;
+    top: -0.3rem;
+}
+#mail{
+    height:6%;
+    width:2%;
+}
+.ct div a{
+    padding-left: 7px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 81px;
+    font-size: 1.4rem;
+    color:white;
+    text-decoration: none;
+}
+#nav{
+    display:flex;
+    background-color: white;
+}
+.img1{
+    height:94%;
+    width:18%;
+    margin-left:-39px;
+}
+.img2{
+    width:50%;
+    height: 56%;
+    margin-bottom: 3rem;
+}
+#nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left:-1847px;
+    position:relative;
+    top:11rem;
+    left:4rem;
+}
+#nav li{
+   list-style: none;
+   padding:0px -5px;
+}
+#nav li a{
+    color:navy;
+    font-size:1.4rem;
+    text-decoration: none;
+    padding:2px;
+    margin-right:25px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function:ease;
+}
+#nav li a:hover{ 
+    border-bottom: 2px solid navy;
+    border-top:2px solid navy;
+}
+.blank{
+    height:1.1rem;
+    width:100%;
+}
+#abus a{
+    background-color:grey;
+    
+    border-radius: 5px;
+}
+#sec1{
+    padding-top:7.5rem;
+}
+#loc{
+     color:grey;
+     font-size:0.8rem;
+     padding-left:3rem;
+}
+#sec2{
+    display: flex;
+    justify-content:stretch;
+    /* align-items: center; */
+    padding:3rem 4rem;
+}
+#abtus {
+    padding: 0px 0rem;
+    margin-left: 2rem;
+}
+#comp h3{
+    margin-bottom:1rem; 
+    font-size: 1.3rem;
+    padding-right:9rem;
+    font-family: 'Cinzel', serif;
+}
+#comp{
+    margin-left:1rem;
+}
+#abtus h3{
+    margin-bottom:1rem;
+    font-size: 1.3rem;
+    font-family: 'Cinzel', serif;
+}
+#abtus p{
+    margin-bottom:1rem;
+    color:black;
+    opacity: 0.7;
+}
+#comp li{
+    border-radius: 5px;
+    margin-bottom:0.5rem;
+    border:1px solid darkgray;
+    padding: 0.5rem 1rem;
+      transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function:ease;
+}
+#sec2 {
+    display: flex;
+    justify-content: center;
+}
+#comp ul{
+    list-style: none;
+}
+#comp li a {
+    padding-right: 16.4rem;
+    margin-bottom: 0.9rem;
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function:ease;
+}
+#comp li:hover{
+    background-color: navy;
+}
+#comp li a:hover{
+    color:white;
+    background-color: navy;
+}
+#part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+#get-in-touch1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-right: 2rem;
+    /* align-items: center; */
+}
+#get-in-touch1 h3{
+    color:navy;
+}
+/* .ele img{
+    width: 1.8rem;
+    height:1.8rem;
+    margin-top: 1rem;
+} */
+#adds{
+    height: 1.8rem;
+    width:1.8rem;
+}
+.calls{
+    height:1.7rem;
+    width:1.7rem;
+}
+#mails{
+    height:1.5rem;
+    width:1.5rem;
+    margin-top:0.2rem;
+}
+#times{
+    height:1.4rem;
+    width:1.4rem;
+    margin-top:0.4rem;
+}
+#videos{
+    height:1.4rem;
+    width:1.4rem;
+    margin-top:0.4rem;
+}
+#a{
+   margin-bottom: 0.2rem;
+}
+.c{
+
+}
+#m{
+
+}
+#t{
+
+}
+#v{
+
+}
+#send-msg{
+    margin-left:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+ 
+    #send-msg h3 {
+        color: navy;
+        margin: 1rem 0rem;
+        padding-top: 5rem;
+        padding-top: 1;
+    }
+#name{
+    margin-bottom: 1rem;
+}
+#email{
+    margin-bottom: 1rem;
+}
+#message{
+    margin-bottom: 3rem;
+}
+#part2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: navy;
+    color:white;
+    padding:5px;
+}

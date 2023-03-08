@@ -1,0 +1,25 @@
+.img1 {
+    height: 94%;
+    width: 13%;
+    margin-left: -17px;
+}
+.img2 {
+    width: 31%;
+    height: 47%;
+}
+#loc {
+    color: grey;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    margin-top: 6rem;
+}
+#comp li {
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    border: 1px solid darkgray;
+    padding: 0.5rem 0.1rem;
+}
+#abtus {
+    padding: 0px 0rem;
+    margin-left: 1rem;
+}
